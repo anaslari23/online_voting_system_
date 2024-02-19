@@ -3,7 +3,7 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:online_voting_system/RegistrationScreen.dart';
-import 'package:online_voting_system/constants.dart';
+import 'package:online_voting_system/constant.dart';
 import 'package:online_voting_system/custom_online.dart';
 
 class OnboardingScreen extends StatelessWidget {
@@ -184,7 +184,7 @@ class OnboardingScreen extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: List.generate(
                       3,
-                      (index) {
+                          (index) {
                         return Container(
                           height: 7,
                           width: 7,
